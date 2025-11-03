@@ -1,0 +1,120 @@
+MANUALE AZIENDALE - RISORSE UMANE E POLITICHE AZIENDALI
+
+=== INFORMAZIONI AZIENDA ===
+La nostra azienda, TechCorp Solutions, è stata fondata nel 2015 e opera nel settore dello sviluppo software e consulenza IT. 
+Abbiamo uffici a Milano, Roma e Bologna con un totale di 250 dipendenti.
+La nostra missione è fornire soluzioni tecnologiche innovative ai nostri clienti corporate.
+
+=== FERIE E PERMESSI ===
+Ogni dipendente ha diritto a 22 giorni di ferie all'anno per contratti full-time.
+Le ferie devono essere richieste tramite il portale HR con almeno 15 giorni di anticipo.
+I ROL (Riduzione Orario di Lavoro) sono 32 ore annue e possono essere usati con preavviso di 24 ore.
+Permessi per motivi personali: 3 giorni all'anno retribuiti.
+Congedo matrimoniale: 15 giorni consecutivi retribuiti.
+Permessi studio: fino a 150 ore annue per dipendenti iscritti a corsi universitari.
+
+=== ORARIO DI LAVORO ===
+Orario standard: 9:00-13:00 / 14:00-18:00 (40 ore settimanali).
+Orario flessibile disponibile: entrata tra 8:00-10:00, uscita conseguente.
+Pausa pranzo: minimo 30 minuti, consigliato 1 ora.
+Smart working: fino a 3 giorni a settimana per chi ha superato il periodo di prova.
+Full remote disponibile per ruoli specifici previa approvazione del direttore.
+
+=== BENEFIT AZIENDALI ===
+Assicurazione sanitaria integrativa (Metasalute) per dipendente e familiari.
+Buoni pasto: 8 euro al giorno per giornate in presenza.
+Abbonamento mezzi pubblici: rimborso 100% per residenti in città sede ufficio.
+Palestra: contributo aziendale 60% fino a max 50 euro/mese.
+Budget formazione: 1500 euro annui per corsi, certificazioni e conferenze.
+Welfare aziendale: 2000 euro annui convertibili in servizi (asilo, spesa, carburante).
+Piano stock options per senior manager e director.
+
+=== PROCESSO ONBOARDING ===
+Durata: 3 settimane complete.
+Settimana 1: Orientamento aziendale, setup IT, formazione su tool interni, sicurezza.
+Settimana 2: Shadowing con team membri, introduzione ai progetti attivi.
+Settimana 3: Prime task assegnate con supporto buddy.
+Ogni neo-assunto ha un buddy per i primi 6 mesi.
+Valutazione onboarding a 1, 3 e 6 mesi.
+
+=== SVILUPPO E CARRIERA ===
+Performance review: semestrale (giugno e dicembre).
+Sistema OKR (Objectives and Key Results) per tracciare obiettivi.
+Piani di sviluppo individuali (IDP) discussi annualmente.
+Programma mentorship per junior e mid-level.
+Percorsi di carriera dual-track: technical leadership o people management.
+
+=== COMPENSATION & BENEFITS ===
+RAL rivista annualmente durante la performance review di dicembre.
+Aumenti meritocratici basati su performance e crescita ruolo.
+Sistema di bonus annuale: fino al 20% della RAL per performance eccellenti.
+Tredicesima e quattordicesima mensilità secondo CCNL Metalmeccanico.
+TFR: liquidazione o conferimento a fondo pensione.
+
+=== RIMBORSI SPESE ===
+Trasferte: rimborso integrale con ricevute (hotel, trasporti, pasti).
+Spese clienti: pranzi/cene fino a 60 euro a persona.
+Hardware: laptop e monitor forniti dall'azienda, possibilità di richieste specifiche.
+Software e tool: approvazione manager per licenze professionali.
+Caricamento spese su portale entro 30 giorni, rimborso in busta paga mese successivo.
+
+=== POLICY MALATTIA E INFORTUNI ===
+Comunicazione malattia: entro le 9:00 del primo giorno a manager e HR.
+Certificato medico: invio entro 2 giorni via email o PEC.
+Primi 3 giorni: 100% retribuzione a carico azienda.
+Dal 4° giorno: interviene INPS secondo normativa (50% primi 20 giorni, 66.66% successivi).
+Visite mediche: permessi retribuiti per visite specialistiche.
+Infortuni: copertura INAIL, denuncia immediata a HR.
+
+=== MATERNITÀ E PATERNITÀ ===
+Congedo maternità: 5 mesi retribuiti all'80% (INPS + integrazione aziendale al 100%).
+Congedo paternità: 10 giorni obbligatori retribuiti al 100%.
+Congedo parentale: 6 mesi per genitore, retribuiti al 30% fino a 6 anni del bambino.
+Smart working prioritario per neo-genitori fino a 3 anni del figlio.
+Asilo nido aziendale convenzionato con tariffa agevolata.
+
+=== POLICY SICUREZZA E COMPLIANCE ===
+Corso sicurezza obbligatorio: primo mese, aggiornamento biennale.
+Badge aziendale: obbligatorio per accesso uffici, non cedibile.
+Protezione dati: formazione GDPR obbligatoria, rinnovo annuale.
+Dispositivi: crittografia obbligatoria, antivirus aggiornato, backup automatici.
+Password: cambio trimestrale, complessità minima, 2FA per sistemi critici.
+Incident reporting: canale dedicato per segnalazione violazioni sicurezza.
+
+=== DRESS CODE E AMBIENTE ===
+Dress code standard: business casual.
+Venerdì: casual day.
+Meeting clienti: business formal.
+Estate (giugno-settembre): dress code più rilassato, no meeting clienti in shorts.
+Ambiente pet-friendly: cani ammessi in ufficio previo accordo team.
+
+=== STRUMENTI E TECNOLOGIE ===
+Comunicazione: Slack per chat, Google Meet per videocall.
+Project management: Jira per sviluppo, Asana per progetti trasversali.
+Documentazione: Confluence e Google Workspace.
+Repository: GitHub Enterprise.
+Email: Gmail aziendale con dominio @techcorp.com.
+
+=== POLICY DIMISSIONI ===
+Preavviso contrattuale: 
+- Junior: 1 mese
+- Senior: 2 mesi  
+- Manager: 3 mesi
+Comunicazione formale: email a HR e manager + lettera raccomandata.
+Exit interview: colloquio con HR per feedback.
+Restituzione: badge, laptop, materiali aziendali entro ultimo giorno.
+TFR: liquidazione entro 45 giorni dalla cessazione.
+
+=== CODICE ETICO E CONDOTTA ===
+Zero tolerance per discriminazioni (genere, etnia, orientamento, religione).
+Divieto molestie di qualsiasi tipo, canale whistleblowing anonimo.
+Conflitto interessi: dichiarazione obbligatoria.
+Regali da fornitori: massimo 50 euro di valore.
+Social media: linee guida per comunicazione pubblica su temi aziendali.
+
+=== CONTATTI HR ===
+Email HR: hr@techcorp.com
+Responsabile HR: Maria Rossi (maria.rossi@techcorp.com)
+Amministrazione: admin@techcorp.com
+IT Support: itsupport@techcorp.com
+Portale dipendenti: https://portal.techcorp.com
