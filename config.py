@@ -20,11 +20,27 @@ LLM_MAX_TOKENS_GENERATOR = 512
 CHUNK_SIZE = 800
 MIN_CHUNK_SIZE = 50
 
-# RAG routing keywords
-RAG_KEYWORDS = [
-    "ferie", "permessi", "giorni", "benefit", "assicurazione", 
-    "stipendio", "contratto", "policy", "orario", "smart working",
-    "malattia", "maternità", "dimissioni", "preavviso", "bonus",
-    "welfare", "formazione", "onboarding", "hr", "azienda", "ufficio",
-    "rol", "congedo", "tredicesima", "tfr", "ccnl", "rimborso"
+# Routing keywords
+DOCUMENTS_KEYWORDS = [
+    "policy", "procedura", "come funziona", "processo", "normativa",
+    "regolamento", "codice", "manuale", "linee guida", "dress code",
+    "sicurezza", "compliance", "rimborso", "richiedere", "comunicare",
+    "preavviso", "dimissioni", "onboarding", "welfare"
 ]
+
+DATASET_KEYWORDS = [
+    "quanti dipendenti", "statistiche", "media", "totale", "lista",
+    "chi", "elenco", "confronta", "maggior", "minore", "top",
+    "team", "dipartimento", "manager", "performance", "rating",
+    "salario", "ferie utilizzate", "remote", "ufficio", "stipendio medio",
+    "lavora", "responsabile"
+]
+
+# Hybrid: queries che potrebbero necessitare entrambi
+HYBRID_INDICATORS = [
+    "analisi completa", "report dettagliato", "tutto su", "panoramica",
+    "spiegami e mostrami", "confronta con i dati"
+]
+
+# Dataset configuration
+DATASET_PATH = "hr_dataset.csv"

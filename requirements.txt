@@ -1,0 +1,5 @@
+langgraph
+huggingface_hub
+chromadb
+sentence-transformers
+python-dotenv

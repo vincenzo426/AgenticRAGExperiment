@@ -1,0 +1,19 @@
+graph TD
+    A[START: User Question] --> B[Router Agent]
+    
+    B -->|Analizza domanda| C{Decisione}
+    
+    C -->|Direct Answer| D[Generator Agent - Direct]
+    C -->|Use RAG| E[Retriever Agent]
+    
+    E -->|Cerca documenti| F[Vector Store - ChromaDB]
+    F -->|Top-K documenti| G[Generator Agent - RAG]
+    
+    D -->|Risposta| H[END]
+    G -->|Risposta + Sources| H
+    
+    style B fill:#ff9999
+    style E fill:#99ccff
+    style D fill:#99ff99
+    style G fill:#99ff99
+    style C fill:#ffcc99

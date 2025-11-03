@@ -4,35 +4,61 @@ from graph import AdaptiveRAGGraph
 
 
 def run_examples(rag_system: AdaptiveRAGGraph):
-    """Esegue esempi che dimostrano il routing adattivo"""
+    """Esegue esempi che dimostrano il routing adattivo a 4 vie"""
     
     print("\n" + "="*70)
-    print("🧪 TEST: Domande che NON richiedono RAG (risposta diretta)")
+    print("🧪 TEST 1: Domande DIRECT (risposta generica)")
     print("="*70)
     
     direct_questions = [
         "Ciao! Come stai?",
-        "Puoi aiutarmi?",
-        "Grazie mille per l'aiuto!",
+        "Grazie per l'aiuto!",
+        "Puoi spiegarmi come funzioni?",
     ]
     
     for q in direct_questions:
         rag_system.query(q)
     
     print("\n" + "="*70)
-    print("🧪 TEST: Domande che richiedono RAG (informazioni specifiche)")
+    print("🧪 TEST 2: Domande DOCUMENTS (policy e procedure)")
     print("="*70)
     
-    rag_questions = [
-        "Quanti giorni di ferie ho all'anno?",
-        "Come funziona lo smart working in azienda?",
-        "Quali benefit offre TechCorp?",
+    document_questions = [
+        "Come funziona la policy sulle ferie?",
         "Qual è il preavviso per le dimissioni?",
-        "Come vengono rimborsate le spese?",
-        "Che formazione ricevo in onboarding?",
+        "Quali benefit offre l'azienda?",
+        "Come richiedere i rimborsi spese?",
     ]
     
-    for q in rag_questions:
+    for q in document_questions:
+        rag_system.query(q)
+    
+    print("\n" + "="*70)
+    print("🧪 TEST 3: Domande DATASET (dati strutturati)")
+    print("="*70)
+    
+    dataset_questions = [
+        "Quanti dipendenti abbiamo in totale?",
+        "Chi ha usato più ferie quest'anno?",
+        "Qual è lo stipendio medio per dipartimento?",
+        "Quanti giorni di smart working in media?",
+        "Chi sono i top performer?",
+    ]
+    
+    for q in dataset_questions:
+        rag_system.query(q)
+    
+    print("\n" + "="*70)
+    print("🧪 TEST 4: Domande HYBRID (policy + dati)")
+    print("="*70)
+    
+    hybrid_questions = [
+        "Mostrami chi ha usato più ferie e spiegami la policy aziendale sulle ferie",
+        "Dammi un'analisi completa sullo smart working: policy e dati dei dipendenti",
+        "Confronta i dati di performance con le policy di sviluppo carriera",
+    ]
+    
+    for q in hybrid_questions:
         rag_system.query(q)
 
 
@@ -41,8 +67,10 @@ def interactive_mode(rag_system: AdaptiveRAGGraph):
     print("\n" + "="*70)
     print("💬 MODALITÀ INTERATTIVA")
     print("="*70)
-    print("Fai domande al sistema. Digita 'exit', 'quit' o 'esci' per terminare.")
-    print("Digita 'graph' per visualizzare la struttura del sistema.\n")
+    print("Fai domande al sistema. Comandi speciali:")
+    print("  • 'exit', 'quit', 'esci' → Termina")
+    print("  • 'graph' → Visualizza struttura sistema")
+    print("  • 'help' → Mostra esempi di domande\n")
     
     while True:
         try:
@@ -57,6 +85,21 @@ def interactive_mode(rag_system: AdaptiveRAGGraph):
             
             if question.lower() == 'graph':
                 rag_system.visualize_graph()
+                continue
+            
+            if question.lower() == 'help':
+                print("\n📚 Esempi di domande:")
+                print("\nDIRECT:")
+                print("  • Ciao, come va?")
+                print("\nDOCUMENTS:")
+                print("  • Come funziona la policy ferie?")
+                print("  • Qual è il dress code aziendale?")
+                print("\nDATASET:")
+                print("  • Quanti dipendenti abbiamo?")
+                print("  • Chi lavora a Milano?")
+                print("\nHYBRID:")
+                print("  • Analisi completa smart working con policy e dati")
+                print("  • Chi ha più ferie e qual è la policy?\n")
                 continue
             
             rag_system.query(question)
@@ -80,13 +123,18 @@ def main():
         return
     
     knowledge_base_path = "knowledge_base.txt"
+    dataset_path = "hr_dataset.csv"
     
     if not os.path.exists(knowledge_base_path):
         print(f"❌ Errore: {knowledge_base_path} non trovato")
         return
     
+    if not os.path.exists(dataset_path):
+        print(f"❌ Errore: {dataset_path} non trovato")
+        return
+    
     # Inizializza il sistema
-    rag_system = AdaptiveRAGGraph(hf_token, knowledge_base_path)
+    rag_system = AdaptiveRAGGraph(hf_token, knowledge_base_path, dataset_path)
     
     # Mostra struttura
     rag_system.visualize_graph()

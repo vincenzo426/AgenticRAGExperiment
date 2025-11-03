@@ -1,0 +1,26 @@
+employee_id,full_name,role,department,hire_date,vacation_days_total,vacation_days_used,sick_days_used,salary,bonus_percentage,performance_rating,manager,location,remote_days_per_week
+E001,Marco Bianchi,Senior Developer,Engineering,2018-03-15,22,18,3,55000,15,4.5,Andrea Verdi,Milano,3
+E002,Laura Russo,Product Manager,Product,2019-06-01,22,12,1,62000,18,4.8,Giulia Neri,Milano,2
+E003,Andrea Verdi,Engineering Manager,Engineering,2016-01-10,22,20,2,78000,20,4.7,,Milano,2
+E004,Sofia Colombo,Junior Developer,Engineering,2022-09-01,22,8,5,38000,10,4.2,Andrea Verdi,Roma,3
+E005,Giovanni Esposito,DevOps Engineer,Engineering,2020-04-20,22,15,0,52000,12,4.6,Andrea Verdi,Bologna,4
+E006,Chiara Romano,UX Designer,Product,2021-02-14,22,10,2,48000,12,4.4,Giulia Neri,Milano,2
+E007,Giulia Neri,Product Director,Product,2017-08-05,22,16,1,85000,20,4.9,,Milano,1
+E008,Francesco Ferrari,Data Scientist,Data,2020-11-10,22,14,4,58000,15,4.5,Roberto Conti,Roma,3
+E009,Valentina Ricci,HR Manager,HR,2018-07-22,22,19,2,60000,15,4.6,Maria Rossi,Milano,2
+E010,Roberto Conti,Data Lead,Data,2019-03-18,22,13,1,72000,18,4.7,,Bologna,3
+E011,Elena Marino,Backend Developer,Engineering,2021-05-30,22,11,3,45000,12,4.3,Andrea Verdi,Roma,3
+E012,Matteo Greco,Frontend Developer,Engineering,2020-08-12,22,17,2,47000,12,4.4,Andrea Verdi,Milano,3
+E013,Alessia Bruno,QA Engineer,Engineering,22,22,9,1,42000,10,4.5,Andrea Verdi,Bologna,2
+E014,Davide Gallo,Sales Manager,Sales,2017-11-20,22,21,0,68000,22,4.8,Luca Fontana,Milano,1
+E015,Federica Costa,Marketing Specialist,Marketing,2021-03-08,22,7,4,44000,12,4.2,Simona Leone,Roma,2
+E016,Luca Fontana,Sales Director,Sales,2016-05-15,22,15,1,90000,25,4.9,,Milano,1
+E017,Simona Leone,Marketing Manager,Marketing,2019-09-25,22,12,2,58000,15,4.5,,Roma,2
+E018,Paolo Mancini,Security Engineer,Engineering,2022-01-15,22,5,0,50000,12,4.3,Andrea Verdi,Milano,3
+E019,Martina Lombardi,Business Analyst,Product,2020-06-10,22,16,3,46000,12,4.4,Giulia Neri,Bologna,2
+E020,Stefano Rizzo,Cloud Architect,Engineering,2018-12-03,22,14,1,75000,18,4.8,Andrea Verdi,Milano,2
+E021,Ilaria Moretti,Junior Data Analyst,Data,2023-02-20,22,3,2,36000,8,4.1,Roberto Conti,Roma,3
+E022,Antonio Barbieri,Senior Frontend,Engineering,2019-10-08,22,19,4,54000,15,4.6,Andrea Verdi,Milano,3
+E023,Serena Ferretti,Recruiter,HR,2021-07-12,22,11,1,40000,10,4.3,Valentina Ricci,Milano,2
+E024,Fabio Santoro,Solutions Architect,Engineering,2017-04-18,22,18,2,70000,18,4.7,Andrea Verdi,Bologna,2
+E025,Maria Rossi,Chief HR Officer,HR,2015-09-01,22,22,0,95000,20,5.0,,Milano,1
